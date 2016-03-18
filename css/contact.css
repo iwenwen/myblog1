@@ -1,0 +1,27 @@
+#header{
+	height:220px;
+}
+#message{
+	padding-top:10px;
+	height:500px;
+	background: #e4e2e2;
+}
+#message .box{
+	margin-left: 200px;
+}
+#message .box p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#message .box p input{
+
+	height:50px;
+	width:400px;
+}
+#message .box .content{
+	height:200px;
+}
+#message .box .btn{
+	width:100px;
+	margin-left: 200px;
+}

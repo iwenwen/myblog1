@@ -1,0 +1,95 @@
+body{
+	background: #e4e2e2;
+}
+#header{
+    height:220px;
+}
+#img{
+    height:500px;
+    width:1200px;
+    margin:20px  auto;
+    background:url("../img/port-pic2.jpg") no-repeat ;
+    background-size: cover;
+}
+#word{
+	color:gray;
+	width:1200px;
+	margin:0 auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+#intro{
+	margin:0 auto;
+	height:250px;
+	width:1200px;
+	border:1px solid #ccc;
+}
+#intro p{
+	font-size: 30px;
+	font-weight: 200;
+	color:#ccc;
+	text-indent: 20px;
+	margin-top: 30px;
+}
+#intro p a{
+	color:gray;
+}
+#intro p a:hover{
+	color:black;
+}
+#intro h1{
+	font-size: 25px;
+	font-weight: 200;
+	color:#ccc;
+	text-indent: 20px;
+	margin-top: 30px;
+}
+#intro img{
+	width:100px;
+	height:100px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#comment{
+	margin-bottom: 100px;
+	margin-top: 40px;
+}
+#comment h2{
+	text-indent: 20px;
+	font-size: 30px;
+	font-weight: 300;
+	color:black;
+}
+#comment p{
+	font-size: 20px;
+	color:gray;
+	margin-top: 20px;
+	text-indent: 20px;
+}
+#comment input{
+	display: block;
+	margin-left: 20px;
+	height:50px;
+	width:855px;
+	margin-top: 20px;
+}
+#comment .content{
+	width:1026px;
+	height:200px;
+}
+#comment .btn{
+	width:150px;
+	line-height: 50px;
+	text-align: center;
+	background: #29C7FF;
+	color:white;
+}
+#single_foot{
+	text-indent: 100px;
+	color:gray;
+	height:80px;
+	/*margin-top: 100px;*/
+	border-top: 1px solid gray;
+	width:1200px;
+	margin:0 auto;
+}

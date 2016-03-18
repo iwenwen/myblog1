@@ -1,0 +1,381 @@
+body{
+	background: #e4e2e2;
+	/*position: relative;*/
+}
+img{
+	border:0;
+}
+ol,ul{
+	list-style: none;
+}
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+#protofolio{
+	padding-top: 20px;
+	height:500px;
+	background: #e4e2e2;
+}
+#protofolio h2{
+	color:gray;
+	margin-bottom:40px;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 900;
+}
+#protofolio #img-box{
+	width:1140px;
+	height:400px;
+	margin:30px auto;
+}
+#protofolio #img-box li{
+	position: relative;
+	width:285px;
+	height:179px;
+	float:left;
+	overflow: hidden;
+}
+#protofolio #img-box li img{
+	width:100%;
+	height:100%;
+}
+#protofolio #img-box li span{
+	display: block;
+	position: absolute;
+	left: 0;
+	top:0;
+	width:100%;
+	height:100%;
+	background: #000;
+	opacity: 0.7;
+	z-index: 2;
+	display: none;
+}
+#big-blog{
+	height:1100px;
+}
+#blog{
+	overflow: hidden;
+	padding-top: 10px;
+	height:1100px;
+	background:#e4e2e2; 
+}
+#blog h2{
+	color:gray;
+	margin-bottom:40px;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 900;
+}
+#blog img{
+	width:310px;
+	height:180px;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+#blog span{
+	display: block;
+	width:127px;
+	height:47px;
+	float:right;
+	margin-right:10px;
+	margin-top:10px;
+	background:#29C7FF;
+	text-align: center;
+	line-height:47px;
+	font-weight: 200;
+}
+#blog span a{
+	display: block;
+	width:100%;
+	height:100%;
+	color:white;
+}
+#blog span a:hover{
+	background: #80727B;
+}
+
+#blog h1{
+	text-indent: 20px;
+ 	color:gray;
+	font-size: 22px;
+	margin-bottom:10px;
+}
+#blog h3{
+	text-indent: 20px;
+	color:gray;
+	font-size: 18px;
+	margin-bottom:10px;
+}
+#blog p{
+
+	color:#c0c0c0;
+	text-indent: 16px;
+	margin:0 auto;
+	width:300px;
+}
+#blog .blogs{
+	/*height:20px;*/
+	/*background: red;*/
+	width:330px;
+	float:left;
+	margin-left: 45px;
+	/*margin-left: 10px;*/
+
+}
+#blog .blog-li{
+	padding-bottom: 70px;
+	background: white;
+	/*border: 1px solid gray;*/
+	margin-bottom: 40px;
+}
+
+#blog .loading{
+	height:50px;
+	background: #000;
+	opacity: 0.5;
+	width:100%;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	line-height: 50px;
+	color:white;
+	display: none;
+}
+#contact{
+	height:600px;
+	background: url(../img/projects-bg.jpg) no-repeat ;
+	background-size:corver;
+}
+#img-box span{
+	position: relative;
+}
+#img-box span .hover{
+	position: absolute;
+	left:50%;
+	margin-left: -28px;
+	bottom:60px;
+	width:56px;
+	height:55px;
+	background:url(../img/hover-icon.png) no-repeat;
+}
+#img-box span a{
+	return:false;
+	position: absolute;
+	bottom:20px;
+	left:50px;
+	font-weight: 500;
+	font-size: 25px;
+	color:white;
+}
+#img-box span a:hover{
+	color:#8b0000;
+}
+#contact{
+	height:450px;
+	position: relative;
+	padding-top: 200px;
+}
+#contact .box{
+	width:1000px;
+	height:500px;
+	margin:0 auto;
+	position: relative;
+}
+#contact .img{
+	margin:0px auto;
+	width:300px;
+	height:300px;
+	background:url(../img/cycle.png) no-repeat;
+}
+#contact .top{
+	left:420px;
+	top:-120px;
+}
+#contact .left{
+	left:280px;
+	bottom:140px;
+}
+#contact .right{
+	right:300px;
+	bottom:140px;
+}
+#contact .small-box{
+	width:145px;
+	height:168px;
+	position: absolute;
+}
+#contact .box .all-a{
+	return:false;
+	display: block;
+	font-size: 28px;
+	font-weight: 700;
+	text-align: center;
+	color:white;
+}
+#contact .box .all-a:hover{
+	color:indianred;
+}
+#contact .box .common{
+	background: white;
+	margin: 20px auto;
+	display: block;
+	width:40px;
+	height:40px;
+}
+#contact .box .common a{
+	return:false;
+	display: block;
+	width:100%;
+	height:100%;
+}
+#contact .box .common a:hover{
+	background: indianred;
+}
+#contact .span-top{
+	display: block;
+	width:40px;
+	height:40px;
+	background: url(../img/project-icons.png) no-repeat 5px 0px ;
+}
+#contact .span-left{
+	display: block;
+	width:40px;
+	height:40px;
+	background: url(../img/project-icons.png) no-repeat -40px 0px ;
+}
+#contact .span-right{
+	display: block;
+	width:40px;
+	height:40px;
+	background: url(../img/project-icons.png) no-repeat -82px 0px ;
+}
+#footer{
+	height:180px;
+	background:#ccc;
+
+}
+
+#footer h2{
+	margin-top: 100px;
+	color:white;
+	float:left;
+	margin-left: 200px;
+}
+#footer .contact{
+	background: dodgerblue;
+	margin-top: 100px;
+	line-height: 50px;
+	text-align: center;
+	float:right;
+	width:150px;
+	height:50px;
+	margin-right: 200px;
+}
+#footer .contact a{
+	display: block;
+	width:100%;
+	height:100%;
+	color:white;
+
+}
+#footer .contact a:hover{
+	background-color:gray;
+}
+#about{
+	color:gray;
+	padding-top: 50px;
+	height:560px;
+	background-color:#e4e2e2;
+}
+#about .title-1{
+	font-weight: 900;
+	text-align: center;
+	font-size: 40px;
+}
+#about .box{
+	margin-top:70px;
+	height:380px;
+	width:500px;
+	float:left;
+	margin-left:100px;
+}
+#about .view{
+	background:url(../img/video.jpg) no-repeat;
+	margin-top:70px;
+	width:550px;
+	height:380px;
+	float:left;
+	margin-left:100px;
+}
+
+#about .title-3{
+	margin-top:10px;
+	font-size:12px;
+	margin-bottom:30px;
+}
+#service{
+	padding-top: 40px;
+	background: url(../img/services-bg.jpg) no-repeat;
+	background-size:cover;
+	height:655px;
+	background-color: #e4e2e2;
+}
+#service .service-box{
+	color:gray;
+	margin:80px auto;
+	width:920px;
+	height:546px;
+}
+#service .service-box li{
+	margin-bottom: 50px;
+	float:left;
+	width:300px;
+	height:193px;
+}
+#service span{
+	margin: 0 auto;
+	display: block;
+	width:48px;
+	height:42px;
+	margin-bottom:20px;
+
+}
+#service h4{
+	color:gray;
+	font-size: 40px;
+	font-weight: 900;
+	text-align: center;
+}
+#service h2{
+	text-align: center;
+	margin-bottom:10px;
+}
+#service p{
+	line-height: 23px;
+}
+#service .span-1{
+	background:url(../img/services-icons.png) no-repeat;
+}
+#service .span-2{
+	background:url(../img/services-icons.png) no-repeat -54px 0px;
+}
+#service .span-3{
+	background:url(../img/services-icons.png) no-repeat -108px 0px;
+}
+#service .span-4{
+	background:url(../img/services-icons.png) no-repeat -174px 0px;
+}
+#service .span-5{
+	background:url(../img/services-icons.png) no-repeat -240px 0px;
+}
+#service .span-6{
+	background:url(../img/services-icons.png) no-repeat -298px 0px;
+
+}

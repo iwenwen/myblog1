@@ -1,0 +1,18 @@
+.login-box{
+    width:400px;
+    height:400px;
+    margin: 0 auto;
+}
+.login-box p{
+    margin-top:70px;
+    margin-bottom:20px;
+}
+.login-box .com{
+    width:200px;
+    height:50px;
+}
+.login-box .btn{
+    width:80px;
+    height:40px;
+    margin-left:100px;
+}

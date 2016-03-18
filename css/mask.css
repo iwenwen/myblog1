@@ -1,0 +1,33 @@
+.mask{
+	width:100%;
+	height:4650px;
+	background: #000;
+	opacity: 0.7;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 6;
+}
+.mask-img{
+	position:fixed;
+	/*top:200px;*/
+	/*left:500px;*/
+	z-index: 8;
+}
+.mask-close{
+	color:white;
+	background:url(../img/close.gif) no-repeat;;
+	z-index: 30;
+	position: fixed;
+	left:520px;
+	top:210px;
+	width:40px;
+	height:40px;
+	font-weight: bold;
+	cursor:pointer;
+}
+.mask-close p{
+	position: absolute;
+	left:0;
+	top:200px;
+}
